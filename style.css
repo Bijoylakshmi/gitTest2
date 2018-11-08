@@ -1,0 +1,64 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: #fff;
+  font-size: 16px;
+  font-family: serif;
+}
+div#wrapper{
+width:80%;
+/*height: 1200px;*/
+margin: 0 auto;
+background-color: #fff;
+-webkit-box-shadow: 6px 11px 20px 0px rgba(0,0,0,0.49);
+box-shadow: 6px 11px 20px 0px rgba(0,0,0,0.49);
+}
+header{
+  /*background-color: #FFF5F7;*/
+  background-color: #BEDBFE;
+  background-image: url(weather_banner.jpg);
+  background-repeat: no-repeat;
+  padding: 140px 0;
+}
+header h1{
+  font-family: serif;
+  text-align: center;
+}
+nav{
+  padding: 0;
+  margin: 0;
+}
+nav ul{
+  margin:0;
+  padding: 10px 0;
+}
+nav li:first-child{
+  padding-left: 0;
+}
+nav ul li{
+  display: inline;
+  padding-left: 5%;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#000;
+}
+main{}
+main img{width: 100%;}
+main .float{float: left;}
+main .weathe_doc:first-child{margin-left: 0;}
+main .weathe_doc:last-child{margin-right: 0;}
+main .weathe_doc{width:28%; padding: 2%; margin:1%; }
+main .temperature{ background-color: #FEEDD7;}
+main .measurement{ background-color: #FEFED7;}
+main .direction{ background-color: #FEEDD7;}
+footer{
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+}
+.clearleft{clear: left;}
